@@ -88,8 +88,13 @@ dependencies {
 
     // Compose destination
     def compose_destination_version = "1.5.10-beta"
+
     implementation "io.github.raamcosta.compose-destinations:animations-core: $compose_destination_version"
     ksp "io.github.raamcosta.compose-destinations:ksp:$compose_destination_version"
 
+    // gson
+    implementation 'com.google.code.gson:gson:2.9.0'
 
+    //coin
+    implementation("io.coil-kt:coil-compose:2.1.0")
 }
